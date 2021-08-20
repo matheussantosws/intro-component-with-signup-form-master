@@ -58,3 +58,42 @@ button {
     color: white;
     font-weight: 400;
 }
+/*Formulário Personalizado */
+.formulario{
+    border-radius: 10px;
+}
+.name {
+    border-radius: 5px;
+    padding-right:100px;
+    margin-left: -24%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-block-end: 5%;
+}
+.lastname {
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-right:100px;
+    margin-left: -24%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-block-end: 5%;
+}
+.email {
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-right:100px;
+    margin-left: -24%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-block-end: 5%;
+}
+.senha {
+    margin-top: 5%;
+    border-radius: 5px;
+    padding-right:100px;
+    margin-left: -24%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-block-end: 5%;
+}
