@@ -38,6 +38,7 @@ p {
     font-weight: 400;
 }
 
+/*Formulário Personalizado*/
 .formulario {
     margin-top: 5%;
     padding: 5%;
@@ -58,7 +59,7 @@ button {
     color: white;
     font-weight: 400;
 }
-/*Formulário Personalizado */
+
 .formulario{
     border-radius: 10px;
 }
