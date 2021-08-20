@@ -64,6 +64,7 @@ button {
     border-radius: 10px;
 }
 .name {
+    border-width:thin;
     border-radius: 5px;
     padding-right:100px;
     margin-left: -24%;
@@ -72,6 +73,7 @@ button {
     padding-block-end: 5%;
 }
 .lastname {
+    border-width:thin;
     margin-top: 5%;
     border-radius: 5px;
     padding-right:100px;
@@ -81,6 +83,7 @@ button {
     padding-block-end: 5%;
 }
 .email {
+    border-width:thin;
     margin-top: 5%;
     border-radius: 5px;
     padding-right:100px;
@@ -90,6 +93,7 @@ button {
     padding-block-end: 5%;
 }
 .senha {
+    border-width:thin;
     margin-top: 5%;
     border-radius: 5px;
     padding-right:100px;
