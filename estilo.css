@@ -112,3 +112,11 @@ button {
     padding: 10px 10px;
     margin-left: -22%;
 }
+
+/*Medias - Breakpoints*/
+
+@media (min-width: 375px) {
+    .form {
+        background-color: blue;
+    }
+}
