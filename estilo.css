@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(images/bg-intro-mobile.png);
+}
+.card {
+    padding: 5%;
+}
+.info {
+    text-align: center;
+    color: white;
+}
+h1 {
+    margin-top: 10%;
+}
+p {
+    margin-top: 10%; 
+    font-weight: 400;
+}
+
+.cardvalor {
+    background-color:hsl(248, 32%, 49%);
+    text-align: center;
+    padding: 3%;
+    margin-top: 15%;
+    color: white;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.cardvalorinfo {
+    padding: 2%;
+    font-weight: 400;
+}
+
+.formulario {
+    margin-top: 5%;
+    padding: 5%;
+    background-color: white;
+}
+form {
+    margin-left: 18%;
+    
+}
+button {
+    text-align: center;
+    margin-top: 5%;
+    margin-left: -10%;
+    background-color:hsl(154, 59%, 51%);
+    border: none;
+    padding: 10px 40px 10px 40px;
+    border-radius: 5px 5px 5px 5px;
+    color: white;
+    font-weight: 400;
+}
