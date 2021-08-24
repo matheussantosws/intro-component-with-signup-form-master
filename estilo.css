@@ -6,6 +6,7 @@
 }
 
 .container {
+    width: 100%;
     background-color: hsl(0, 100%, 74%);
     background-image: url(images/bg-intro-mobile.png);
 }
@@ -113,10 +114,105 @@ button {
     margin-left: -22%;
 }
 
-/*Medias - Breakpoints*/
+/*Medias - Breakpoints Mobile*/
 
 @media (min-width: 375px) {
-    .form {
-        background-color: blue;
+    form {
+        margin-left: 24%;
+    }
+    .terms {
+        margin-right: 10%;
     }
 }
+
+@media (min-width: 480px) {
+    form {
+        margin-left: 32%;
+    }
+    .terms {
+        margin-right: 18%;
+    }
+}
+
+@media (min-width: 720px) {
+    button {
+        margin-right: 15%;
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .formulario {
+        padding-right: 16%;
+    }
+    .terms {
+        margin-right: 5%;
+    }
+}
+
+@media (min-width: 768px) {
+    button {
+        margin-right: 15%;
+    }
+}
+    /*Medias - Breakpoints Desktop*/
+
+    @media (min-width: 1024px) {
+        .conatiner {
+            width: 100vh;
+        }
+        .card {
+            padding-top:1%;
+        }
+        .info {
+            margin-top: 25%;
+            width: 50%;
+        }
+        .cardvalor {
+            width: 50%;
+            padding: 0%;
+            margin-top: -35%;
+            margin-left: 53%;
+        }
+        .formulario {
+            width: 50%;
+            margin-left: 53%;
+            margin-top: 2%;
+        }
+        form {
+            width: 100%;
+            height: 100%;
+        }
+        .name {
+            display: flex;
+            flex-direction: row;
+            align-self:flex-start;
+            padding-right: 80%;
+            margin-left: -33%;
+        }
+        .lastname {
+            display: flex;
+            flex-direction: row;
+            align-self:flex-start;
+            padding-right: 80%;
+            margin-left: -33%;
+        }
+        .email {
+            display: flex;
+            flex-direction: row;
+            align-self:flex-start;
+            padding-right: 80%;
+            margin-left: -33%;
+        }
+        .senha {
+            display: flex;
+            flex-direction: row;
+            align-self:flex-start;
+            padding-right: 80%;
+            margin-left: -33%;
+        }
+}
+
+
+
