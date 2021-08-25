@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -8,26 +9,35 @@
   <link rel="stylesheet" href="estilo.css">
   <!--Link do CSS-->
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Intro component with sign up form</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
+  <script src="script.js" defer></script>
 </head>
+
 <body>
   <div class="container">
     <div class="card">
       <div class="info">
-      <h1>Learn to code by watching others</h1>
+        <h1>Learn to code by watching others</h1>
 
-      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-      but understanding how developers think is invaluable.</p>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+          but understanding how developers think is invaluable.</p>
       </div>
       <div class="cardvalor">
         <div class="cardvalorinfo">
@@ -35,20 +45,22 @@
         </div>
       </div>
       <div class="formulario">
-        <form method="get" action="envio_dados.php">
-          <input class="name" type="text" name="nome" placeholder="First Name">
-          <input class="lastname" type="e-mail" name="email" placeholder="Last Name">
-          <input class="email" type="e-mail" name="email" placeholder="Email Address">
-          <input class="senha" type="e-mail" name="email" placeholder="Password">  
+        <form action="">
+          <input class="name" type="text" name="nome" placeholder="First Name" required>
+          <input class="lastname" type="e-mail" name="email" placeholder="Last Name" required>
+          <input class="email" type="e-mail" name="email" placeholder="Email Address" required>
+          <input class="senha" type="e-mail" name="email" placeholder="Password" required>
           <button>Claim your free trial </button>
-          <p class="terms">By clicking the button, you are agreeing to our Terms and Services <span style="font-size: smaller; color: Red;">Terms and Services</span>
-          </p> 
+          <p class="terms">By clicking the button, you are agreeing to our Terms and Services <span
+              style="font-size: smaller; color: Red;">Terms and Services</span>
+          </p>
         </form>
       </div>
-       </div>
     </div>
+  </div>
   </div>
 
   </footer>
 </body>
+
 </html>
